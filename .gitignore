@@ -1,0 +1,26 @@
+# виртуальные окружения
+venv311/
+venv313/
+**/venv/
+**/.venv/
+__pycache__/
+**/__pycache__/
+*.pyc
+
+# сборка PyInstaller (пересоздаётся: pyinstaller build/gui.spec)
+build/build/
+build/dist/
+
+# установочные архивы и логи — слишком большие / не нужны в репозитории
+pip_install_311.zip
+pip_install_311.log
+run_show.log
+build/gui_run*.log
+build/gui_debug*.log
+
+# IDE / служебное
+.idea/
+.claude/
+
+# отдельный несвязанный git-репозиторий внутри папки
+/5/
